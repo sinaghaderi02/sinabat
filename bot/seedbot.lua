@@ -207,6 +207,13 @@ function create_config( )
     "onservice",
     "inrealm",
     "ingroup",
+    "tex2img",
+    "myid",
+    "myname",
+    "myusername",
+    "block",
+    "feegback",
+    "version",
     "inpm",
     "banhammer",
     "stats",
@@ -220,7 +227,7 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {110626080,103649648,0,tonumber(our_id)},--Sudo users
+    sudo_users = {91054649,130760959,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
