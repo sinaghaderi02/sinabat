@@ -210,9 +210,11 @@ function create_config( )
     "tex2img",
     "myid",
     "myname",
+    "echo",
+    "fosh",
     "myusername",
     "block",
-    "feegback",
+    "feedback",
     "version",
     "inpm",
     "banhammer",
@@ -231,130 +233,133 @@ function create_config( )
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v1
-An advance Administration bot based on yagop/telegram-bot 
-
-https://github.com/SEEDTEAM/TeleSeed
-
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@seyedan25 [Manager]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
+    about_text = [[TeleGamer Anti Spam Bot v2.0 
+  Channel : @TELEGAMERCH
+  Admin : @MEHRPOUYA81
+  @MT246
+  Powered by :
+  TELE GAMER TEAM
 ]],
     help_text = [[
-Commands list :
+لیست دستورات :
 
 !kick [username|id]
-You can also do it by reply
+کیک کردن کاربر (حتی با ریپلی)
 
 !ban [ username|id]
-You can also do it by reply
+بن کردن کاربر (حتی با ریپلی)
 
 !unban [id]
-You can also do it by reply
+آن بن کردن کاربر (حتی با ریپلی)
 
 !who
-Members list
+دریافت لیست اعضا
 
 !modlist
-Moderators list
+دریافت لیست مدیران
 
 !promote [username]
-Promote someone
+افزودن مدیر
 
 !demote [username]
-Demote someone
+حذف کردن مدیر
 
 !kickme
-Will kick user
+حذف خودتان از گروه
 
 !about
-Group description
+توضیحات گروه
 
 !setphoto
-Set and locks group photo
+انتخاب و قفل عکس گروه
 
 !setname [name]
-Set group name
+انتخاب نام گروه
 
 !rules
-Group rules
+قوانین گروه
 
 !id
-return group id or user id
+دریافت آی دی گروه یا کاربر
 
 !help
 
 !lock [member|name|bots]
-Locks [member|name|bots] 
+قفل اعضا ، ربات و نام گروه
 
 !unlock [member|name|photo|bots]
-Unlocks [member|name|photo|bots]
+باز کردن قفل اعضا ، ربات و نام گروه
 
 !set rules <text>
-Set <text> as rules
+انتخاب قوانین گروه
 
 !set about <text>
-Set <text> as about
+انتخاب توضیحات گروه
 
 !settings
-Returns group settings
+دریافت تنظیمات گروه
 
 !newlink
-create/revoke your group link
+ساخت / تغییر لینک گروه
 
 !link
-returns group link
+دریافت لینک گروه
 
 !owner
-returns group owner id
+دریافت آی دی مدیر اصلی گروه
 
 !setowner [id]
-Will set id as owner
+انتخاب مدیر اصلی گروه
 
 !setflood [value]
-Set [value] as flood sensitivity
+تغییر حساسیت ضد اسپم
 
 !stats
-Simple message statistics
+دریافت آمار در قالب متن
 
 !save [value] <text>
-Save <text> as [value]
+سیو کردن یک متن
 
 !get [value]
-Returns text of [value]
+دریافت متن سیو شده
 
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+پاک کردن قوانین ، مدیران ، اعضا و ...
 
 !res [username]
-returns user id
+دریافت یوزر آی دی
 "!res @username"
 
 !log
-will return group logs
+دریافت گزارشات گروه
 
 !banlist
-will return group ban list
+دریافت لیست کاربران بن شده
 
-**U can use both "/" and "!" 
+!echo [متن]
+تکرار متن شما
 
+!myid
+دریافت ایدی خود
 
-*Only owner and mods can add bots in group
+!myname
+دریافت اسم خود
 
+!myusername 
+دریافت یوزرنیم خود
 
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+!tex2img [متن]
+تبدیل متن به عکس
 
-*Only owner can use res,setowner,promote,demote and log commands
+!telegamer
+توضیحات ضد اسپم تله گیمر
+
+* شما میتوانید از ! و / استفاده کنید. 
+
+* تنها مدیران میتوانند ربات ادد کنند. 
+
+* تنها معاونان و مدیران میتوانند 
+جزییات مدیریتی گروه را تغییر دهند.
 
 ]]
 
