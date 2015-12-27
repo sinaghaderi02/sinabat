@@ -1,6 +1,6 @@
 function run(msg, matches)
 
-local fuse = 'Dear Admin I Have Recived New #FEEDBACK 😅 \n\nId▶️ : ' .. msg.from.id .. '\n\nNam️e▶️ : ' .. msg.from.print_name ..'\n\nUsername▶️ : @'..member..'\n\n🅿️M :\n\n' .. matches[1] 
+local fuse = 'Dear Admin I Have Recived New #FEEDBACK 😅 \n\nId▶️ : ' .. msg.from.id .. '\n\nNam️e▶️ : ' .. msg.from.print_name ..'\n\nUsername▶️ : @'.. msg.from.username ..'\n\n🅿️M :\n\n' .. matches[1] 
 local fuses = '!printf user#id' .. msg.from.id
 
 
