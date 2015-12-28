@@ -207,15 +207,8 @@ function create_config( )
     "onservice",
     "inrealm",
     "ingroup",
-    "tex2img",
-    "myid",
-    "myname",
-    "echo",
-    "fosh",
-    "myusername",
-    "block",
-    "feedback",
-    "version",
+    "plugins",
+    "tagall",
     "inpm",
     "banhammer",
     "stats",
@@ -339,17 +332,27 @@ function create_config( )
 !echo [متن]
 تکرار متن شما
 
-!myid
-دریافت ایدی خود
-
-!myname
-دریافت اسم خود
-
-!myusername 
-دریافت یوزرنیم خود
-
 !tex2img [متن]
 تبدیل متن به عکس
+
+!calc معادله ریاضی
+ماشین حساب
+مثال : !calc 1*2
+
+!tagall
+لیست تمام اعضا گروه
+
+!google متن
+نتایج جستجو متن در گوگل
+
+!webshot address
+اسکرین شات از سایت
+
+fosh bede be name
+فوش دادن به name
+
+!feedback پیام شما
+فرستادن پیام شما برای ادمین
 
 !telegamer
 توضیحات ضد اسپم تله گیمر
