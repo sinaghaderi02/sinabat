@@ -28,7 +28,7 @@ end
 end
 return {
     patterns = {
- "^[!/]feedback (.*)$"
+ "^[!/]([Ff]eedback) (.*)$"
 
  },
  run = run
