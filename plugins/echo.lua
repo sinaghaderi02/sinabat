@@ -11,7 +11,9 @@ local function run(msg, matches)
 end
 
 return {
-    patterns = {
+  description = "Simplest plugin ever!",
+  usage = "!echo [whatever]: echoes the msg",
+  patterns = {
     "^[!/]([Ee]cho) +(.+)$"
   }, 
   run = run 
