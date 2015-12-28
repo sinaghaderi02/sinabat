@@ -18,7 +18,11 @@ local function run(msg, matches)
 end
 
 return {
-    patterns = {
+  description = "Convert LaTeX equation to image",
+  usage = {
+    "!tex [equation]: Convert LaTeX equation to image"
+  },
+  patterns = {
     "^[!/]([Tt]ex2img) (.+)$"
   },
   run = run
