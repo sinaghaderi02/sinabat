@@ -227,9 +227,9 @@ function create_config( )
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[TeleGamer Anti Spam Bot v2.0 
-  Channel : @TELEGAMERCH
-  Admin : @MEHRPOUYA81
-  @MT246
+  Channel : @atalpha
+  Admin : @sinaghaderi09
+  @sinaghaderi09
   Powered by :
   TELE GAMER TEAM
 ]],
